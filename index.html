@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A classic Tetris game built with HTML5, CSS, and JavaScript">
+    <meta name="keywords" content="tetris, game, html5, javascript, canvas">
+    <meta name="author" content="ironman-29">
     <title>Tetris Game</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
             background-color: #222;
@@ -129,6 +134,44 @@
             color: #4CAF50;
             text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
         }
+
+        .mobile-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .mobile-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        
+        .mobile-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* 반응형 모바일 스타일 */
+        @media (max-width: 768px) {
+            .game-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .side-panel {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            
+            .controls {
+                margin-top: 30px;
+            }
+            
+            .mobile-link {
+                margin-top: 30px;
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -168,6 +211,10 @@
     
     <div class="controls">
         <p>Controls: Arrow Left/Right - Move, Arrow Up - Rotate, Arrow Down - Soft Drop, Space - Hard Drop</p>
+    </div>
+    
+    <div class="mobile-link">
+        <a href="mobile.html">Switch to Mobile-Friendly Version</a>
     </div>
     
     <div class="game-over" id="gameOver">
