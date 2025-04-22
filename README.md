@@ -5,7 +5,8 @@ A classic Tetris game implementation using HTML5 Canvas, CSS, and vanilla JavaSc
 ## Versions
 
 - **[Desktop Version](index.html)** - Standard keyboard controls
-- **[Mobile Version](mobile.html)** - Touch-friendly with on-screen controls and swipe gestures
+- **[Standard Mobile Version](mobile.html)** - Touch-friendly with on-screen controls
+- **[Enhanced Mobile Version](mobile2.html)** - Improved mobile layout with side controls
 
 ## Features
 
@@ -15,7 +16,7 @@ A classic Tetris game implementation using HTML5 Canvas, CSS, and vanilla JavaSc
 - Levels that increase in difficulty
 - Ghost piece to show where the current piece will land
 - Game over screen with restart option
-- Mobile optimization with touch controls
+- Multiple mobile optimizations
 
 ## Controls
 
@@ -33,9 +34,20 @@ A classic Tetris game implementation using HTML5 Canvas, CSS, and vanilla JavaSc
 - **Rotation button**: Rotate piece
 - **Hard drop button**: Drop piece all the way down
 
+## Mobile Version Differences
+
+### Standard Mobile Version
+- On-screen control buttons below the game board
+- Touch and swipe gestures
+
+### Enhanced Mobile Version
+- Improved layout with control buttons positioned on both sides of the game board
+- More responsive design and better button placement
+- Better visual styling for buttons
+
 ## How to Play
 
-1. Open the index.html file (desktop) or mobile.html file (mobile devices) in a web browser
+1. Open the index.html file (desktop) or mobile.html/mobile2.html file (mobile devices) in a web browser
 2. Use the controls to move, rotate and drop pieces
 3. Complete horizontal lines to score points
 4. The game speeds up as you complete more lines and advance through levels
@@ -45,7 +57,8 @@ A classic Tetris game implementation using HTML5 Canvas, CSS, and vanilla JavaSc
 
 You can play the game online at:
 - [https://ironman-29.github.io/tetris-game/](https://ironman-29.github.io/tetris-game/) (Desktop version)
-- [https://ironman-29.github.io/tetris-game/mobile.html](https://ironman-29.github.io/tetris-game/mobile.html) (Mobile version)
+- [https://ironman-29.github.io/tetris-game/mobile.html](https://ironman-29.github.io/tetris-game/mobile.html) (Standard Mobile version)
+- [https://ironman-29.github.io/tetris-game/mobile2.html](https://ironman-29.github.io/tetris-game/mobile2.html) (Enhanced Mobile version)
 
 To set up GitHub Pages for this repository:
 1. Go to the repository Settings
